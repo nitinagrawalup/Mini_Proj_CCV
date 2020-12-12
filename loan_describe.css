@@ -1,0 +1,56 @@
+*
+{
+	box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+}
+hr
+{
+    height: 12px;
+    color: blueviolet;
+}
+
+.panel-footer
+{
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+}
+.panel-footer div.rows
+{
+	margin-bottom: 35px;
+}
+#sec ,#sec1,#sec2
+{
+	line-height: 2;
+}
+#sec >span ,#sec1 >span ,#sec2 >span
+{
+	font-size: 1.5em;
+	color: white;
+}
+#sec1 p ,#sec2 p,#sec ul>li
+{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8em;
+}
+#sec1 p.p
+{
+	font-size: 0.6em;
+}
+.text-center a
+{
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+.text-center a:hover 
+{
+	text-decoration: none;
+}

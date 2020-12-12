@@ -1,0 +1,273 @@
+
+*
+{
+  box-sizing: border-box;
+}
+header
+{
+	font-size: 16px;
+	color: #fff;
+	background-color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav
+{
+	background-color: #000;
+	border-radius: 0;
+	border-radius: 0;
+}
+
+
+.logo-img >img
+{
+	width: 80px;
+	height: 60px;
+	margin: 5px 15px 10px 0;
+
+}
+.srk >img
+{
+	width: 30px;
+	height: 30px;
+}
+.navbar-brand
+{
+	padding-top: 25px;
+}
+.navbar-brand h1
+{	
+	font-family: 'Orbitron', sans-serif;	
+	color: gray;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom: 0;
+  line-height: .75;
+  position: relative;
+  bottom: 20px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand p
+{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	margin-top: 15px;
+}
+.navbar-brand p span
+{
+	vertical-align: middle;
+}
+#nav-list a:hover
+{
+	background-color: rgb(9, 231, 247);
+}
+#nav-list
+{
+	margin-top: 5px;
+}
+
+#nav-list a
+{
+	color: white;
+	text-align: center;
+	font-size: 1.4em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .mySlides >img
+  {
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .hd
+  {
+    text-align: center;
+  }
+  .below-img >div
+  {
+    height: 150px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 3px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    border: 2px solid #3f0c1f;
+    text-decoration: none;
+  }
+  .below-img >div:hover
+  {
+    background-color: rgb(172, 6, 75);
+  }
+  .below-img >div>a>h3
+  {
+      text-align: center;
+      font-size: 1.8em;
+  }
+  .below-img >div>a>p
+  {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .link
+  {
+    color: #000;
+    text-decoration: none;
+  }
+  .link:hover
+  {
+    text-decoration: none;
+    color: #000;
+  }
+  h1
+  {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .map
+  {
+    text-align: center;
+    border: solid 2px black;
+  }
+  .map:hover
+  {
+    border-color: red;
+  }
+  .map span{
+    background-color: #000;
+  }
+
+  
+.panel-footer
+{
+	margin-top: 30px; 
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+}
+.panel-footer div.rows
+{
+	margin-bottom: 35px;
+}
+#sec ,#sec1,#sec2
+{
+	line-height: 2;
+}
+#sec >span ,#sec1 >span ,#sec2 >span
+{
+	font-size: 1.5em;
+	color: white;
+}
+#sec1 p ,#sec2 p,#sec ul>li
+{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8em;
+}
+#sec1 p.p
+{
+	font-size: 0.6em;
+}
+.text-center a
+{
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+.text-center a:hover 
+{
+	text-decoration: none;
+}
